@@ -28,6 +28,7 @@ const App: React.FC = () => {
           `https://pokeapi.co/api/v2/pokemon/${pokemon.name}`
         );
         console.log("poke: ", poke);
+        console.log("poke: ", poke);
         setpokemons((p) => [...p, poke.data]);
         setloading(false);
       });
